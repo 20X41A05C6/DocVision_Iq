@@ -1,0 +1,18 @@
+name: docvision_ocr_vision_baseline
+task: document_classification
+model: nvidia/nemotron-nano-12b-v2-vl:free
+
+ocr_engine: llamaparse
+use_visual_cues: false
+
+max_pages: 1
+image_resize: [1024, 1024]
+
+temperature: 0.1
+seed: 42
+
+description: >
+  Baseline DocVision experiment using OCR (LlamaParse) combined with
+  a Vision LLM for document classification. Visual cue detection
+  (logos/seals) is disabled to evaluate the contribution of textual
+  and layout understanding alone.

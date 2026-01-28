@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Git
+.git/
+
+# Secrets
+.env
+
+# Generated / runtime files
+uploads/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+name: docvision_full_pipeline
+task: document_classification
+model: nvidia/nemotron-nano-12b-v2-vl:free
+
+ocr_engine: llamaparse
+use_visual_cues: true
+logo_detection_model: ellabettison/Logo-Detection-finetune
+
+max_pages: 1
+max_logos_per_page: 4
+image_resize: [1024, 1024]
+
+temperature: 0.1
+seed: 42
+
+description: >
+  Full DocVision pipeline experiment combining OCR, Vision LLM
+  reasoning, and visual cue detection. Logos and seals extracted
+  from documents are used to support document classification
+  and improve robustness on visually distinctive documents.

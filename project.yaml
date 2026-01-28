@@ -1,0 +1,30 @@
+project_name: "DocVision"
+employee_name: "<EmpID>"
+
+models_used:
+  - nvidia/nemotron-nano-12b-v2-vl
+  - ellabettison/Logo-Detection-finetune
+  - LlamaParse
+
+data:
+  - real_world_documents
+  - scanned_images
+  - pdf_documents
+
+tools:
+  - fastapi
+  - streamlit
+  - llamaparse
+  - openrouter
+  - transformers
+  - pymupdf
+  - pillow
+  - docker
+
+evaluation:
+  - automated
+  - human
+
+compute:
+  platform: cloud
+  gpu: none
