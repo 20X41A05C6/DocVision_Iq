@@ -70,7 +70,7 @@ Structured JSON Output
 **Deployment:** Docker  
 **Experiments:** Declarative YAML (`experiments/`)
 
-
+---
 
 ## 4. Models and Versions Used
 
