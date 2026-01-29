@@ -12,6 +12,7 @@ venv/
 .env
 
 # Generated / runtime files
+uploadss/
 uploads/
 *.pdf
 *.png
