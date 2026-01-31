@@ -35,7 +35,7 @@ Actual latency may vary depending on API load and network conditions.
 ## Random Seed Handling
 
 - Temperature for Vision LLM inference is fixed at `0.1`
-- Experiments declare a fixed seed value (`seed: 42`) for documentation purposes
+- Experiments declare a fixed seed value (`seed: 50`) for documentation purposes
 - No stochastic sampling is intentionally introduced in the pipeline
 - Deterministic preprocessing steps (PDF rendering, resizing, hashing)
 
