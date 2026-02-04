@@ -44,6 +44,11 @@ DocVision is implemented as a **modular, production-style system** with clear se
 
 ### High-Level Architecture
 
+
+<img width="845" height="1351" alt="image" src="https://github.com/user-attachments/assets/93ef2be8-58f6-4cf7-8d7a-b63c788ae80d" />
+
+
+
 ```
 
 User (UI / API)
